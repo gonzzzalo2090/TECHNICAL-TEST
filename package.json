@@ -1,0 +1,17 @@
+{
+  "name": "cypress-prueba-tecnica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-edge": "cypress run --spec cypress/e2e/TestCinemarkLogIn.cy.js --browser edge",
+    "test-chrome": "cypress run --spec cypress/e2e/TestCinemarkLogIn.cy.js --browser chrome",
+    "test-firefox": "cypress run --spec cypress/e2e/TestCinemarkLogIn.cy.js --browser firefox"
+  },
+  "author": "Gonzalo ojeda",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.7.0",
+    "latest": "^0.2.0"
+  }
+}
